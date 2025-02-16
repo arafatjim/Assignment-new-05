@@ -81,8 +81,10 @@ main{
                     width: 80%;
                     display: flex;
                     justify-content: center;
-                    width: 80%;
-                    margin: auto;
+                    margin:auto;
+                    font-size: larger;
+                    padding: 1.5em auto;
+                    height: 50px;
           }
           .donate-history-btn{
                     width:80%;
@@ -90,7 +92,7 @@ main{
                     display: grid;
                     grid-column: auto;
                     justify-content: space-around;
-                    padding-top: 10px;
+                    padding-top: 2px;
                  
           }
           .donate-history{
