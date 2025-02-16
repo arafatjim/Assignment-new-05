@@ -91,6 +91,13 @@ body{
                     padding: 10px auto;
                  
           }
+          .donate-history{
+                    width: 80%;
+                    margin: 0 auto;
+                   padding-top: 200px;
+                    
+          }
+          
           .card-container{
                     border: 2px;
                     width: 100%;
