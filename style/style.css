@@ -90,7 +90,7 @@ main{
                     display: grid;
                     grid-column: auto;
                     justify-content: space-around;
-                    padding-top: 100px;
+                    padding-top: 50px;
                  
           }
           .donate-history{
