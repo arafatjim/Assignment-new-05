@@ -66,6 +66,36 @@
                     margin:auto;
                     display: grid;
                     grid-column: auto;
+                    justify-content: space-around;
+                    padding: 10px auto;
+                 
+          }
+        }
+
+        @media only screen and (min-width: 480px) and (max-width:1200px) {
+          body {
+            background-color: lightblue;
+            margin: 10px 30px;
+          }
+          .navbar{
+                    display: grid;
+                    grid-column: auto;
+                    justify-content:center ;
+                    padding: 15px auto;
+          }
+          .blog-btn{
+                    width: 80%;
+                    display: flex;
+                    justify-content: center;
+                    width: 80%;
+                    margin: auto;
+          }
+          .donate-history-btn{
+                    width:20%;
+                    margin:auto;
+                    display: grid;
+                    grid-column: auto;
+                    justify-content: space-around;
                     padding: 10px auto;
                  
           }
