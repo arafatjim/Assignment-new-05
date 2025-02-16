@@ -58,7 +58,7 @@ main{
 }
 @media only screen and (max-width: 480px) {
           body {
-            background-color: lightblue;
+            background-color: rgb(255, 216, 216);
             margin-top: 0;
             width: 100%;
           }
@@ -107,7 +107,7 @@ main{
                     height: 20%;
                     padding: 10px;
                     border: 2px solid;
-                    border-color: rgb(239, 141, 141);
+                    background: #dddddd;
                     border-radius: 10px;
                     
           }
@@ -115,7 +115,7 @@ main{
 
         @media (min-width: 480px) and (max-width:1200px) {
           body {
-            background-color: rgb(154, 241, 113);
+            background-color: rgb(106, 106, 106);
             margin: 10px 30px;
           }
           .navbar{
