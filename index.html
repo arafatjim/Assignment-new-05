@@ -25,7 +25,7 @@
                                         <h4 class="flex flex-1 flex-row justify-end font-bold text-xl">
                                                   <div class="flex">
                                                             <img src="./assets/coin.png" alt="">
-                                                  <p class="">53000<span> TK</span></p>
+                                                  <p class=""><span id="total-amount">53000 </span>TK</p>
                                                   </div>
                                         </h4>
                               </div>
@@ -36,12 +36,12 @@
           <main>
                     <div class="donate-history">
                               <div class="donate-history-btn">
-                                        <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Responsive</button>
-                                        <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Responsive</button>
+                                        <button id="donate-main-btn" class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Donate</button>
+                                        <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">History</button>
                               </div>
                     </div>
                     <!-- card-1 -->
-                    <div class="card-container hero card-1">
+                    <div id="flood-donation" class="card-container hero card-1">
                               <div class="hero-content py-5 px-4 flex-col-reverse lg:flex-row-reverse">
                                 <div class="text-center lg:text-left">
                                   <h1 class="text-xl font-bold">Donate for Flood at Noakhali,Bangladesh</h1>
@@ -51,16 +51,16 @@
                                         <div class="badge">
                                                   <h4 class="flex flex-1 font-bold text-xl">
                                                             <img src="./assets/coin.png" alt="">
-                                                            <p class="">1000<span> TK</span></p>
+                                                            <p  class=""><span id="current-amount">1000 </span>TK</p>
                                                            </h4>
                                         </div>
                                         <p class="">The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.</p>
-                                        <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full my-3 py-3 " />
+                                        <input id="donation-amount" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full my-3 py-3 " />
                                        
                                        
                                         
                                   </div>
-                                  <button class="btn btn-wide w-full"> Donate Now</button>
+                                  <button id="btn-flood-donate" class="btn btn-wide w-full"> Donate Now</button>
                                 </div>
                                 <div class="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl">
                                   <div class="card-body">
@@ -72,7 +72,7 @@
 
 
                     <!-- card-2 -->
-                    <div class="card-container hero card-2">
+                    <div id="flood-relief-donation" class="card-container hero card-2">
                               <div class="hero-content py-5 px-4 flex-col-reverse lg:flex-row-reverse">
                                 <div class="text-center lg:text-left">
                                   <h1 class="text-xl font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
@@ -82,16 +82,16 @@
                                         <div class="badge">
                                                   <h4 class="flex flex-1 font-bold text-xl">
                                                             <img src="./assets/coin.png" alt="">
-                                                            <p class="">600<span> TK</span></p>
+                                                            <p class="current-amount"><span>600 </span>TK</p>
                                                            </h4>
                                         </div>
                                         <p class="">The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.</p>
-                                        <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full my-3 py-3 " />
+                                        <input id="donation-amount" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full my-3 py-3 " />
                                        
                                        
                                         
                                   </div>
-                                  <button class="btn btn-wide w-full"> Donate Now</button>
+                                  <button id="btn-donate" class="btn btn-wide w-full"> Donate Now</button>
                                 </div>
                                 <div class="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl">
                                   <div class="card-body">
@@ -102,26 +102,26 @@
                     </div>
 
                     <!-- card-3 -->
-                    <div class="card-container hero card-3">
+                    <div id="quota-donation" class="card-container hero card-3">
                               <div class="hero-content py-5 px-4 flex-col-reverse lg:flex-row-reverse">
                                 <div class="text-center lg:text-left">
-                                  <h1 class="text-xl font-bold">Donate for Flood at Noakhali,Bangladesh</h1>
+                                  <h1 class="text-xl font-bold">Aid for Injured in Quota Movement,</h1>
                                   <div class="py-6">
                                         
 
                                         <div class="badge">
                                                   <h4 class="flex flex-1 font-bold text-xl">
                                                             <img src="./assets/coin.png" alt="">
-                                                            <p class="">2200<span> TK</span></p>
+                                                            <p class=""><span id="current-amount">2200 </span>TK</p>
                                                            </h4>
                                         </div>
                                         <p class="">The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.</p>
-                                        <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full my-3 py-3 " />
+                                        <input id="donation-amount" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full my-3 py-3 " />
                                        
                                        
                                         
                                   </div>
-                                  <button class="btn btn-wide w-full"> Donate Now</button>
+                                  <button id="btn-donate" class="btn btn-wide w-full"> Donate Now</button>
                                 </div>
                                 <div class="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl">
                                   <div class="card-body">
@@ -131,66 +131,12 @@
                               </div>
                     </div>
 
-                     <!-- card-2 -->
-                     <div class="card-container hero card-2">
-                              <div class="hero-content py-5 px-4 flex-col-reverse lg:flex-row-reverse">
-                                <div class="text-center lg:text-left">
-                                  <h1 class="text-xl font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
-                                  <div class="py-6">
-                                        
-
-                                        <div class="badge">
-                                                  <h4 class="flex flex-1 font-bold text-xl">
-                                                            <img src="./assets/coin.png" alt="">
-                                                            <p class="">600<span> TK</span></p>
-                                                           </h4>
-                                        </div>
-                                        <p class="">The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.</p>
-                                        <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full my-3 py-3 " />
-                                       
-                                       
-                                        
-                                  </div>
-                                  <button class="btn btn-wide w-full"> Donate Now</button>
-                                </div>
-                                <div class="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl">
-                                  <div class="card-body">
-                                        <img class="h-full" src="./assets/feni.png" alt="">
-                                  </div>
-                                </div>
-                              </div>
-                    </div>
-
-                    <!-- card-3 -->
-                    <div class="card-container hero card-3">
-                              <div class="hero-content py-5 px-4 flex-col-reverse lg:flex-row-reverse">
-                                <div class="text-center lg:text-left">
-                                  <h1 class="text-xl font-bold">Donate for Flood at Noakhali,Bangladesh</h1>
-                                  <div class="py-6">
-                                        
-
-                                        <div class="badge">
-                                                  <h4 class="flex flex-1 font-bold text-xl">
-                                                            <img src="./assets/coin.png" alt="">
-                                                            <p class="">2200<span> TK</span></p>
-                                                           </h4>
-                                        </div>
-                                        <p class="">The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.</p>
-                                        <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full my-3 py-3 " />
-                                       
-                                       
-                                        
-                                  </div>
-                                  <button class="btn btn-wide w-full"> Donate Now</button>
-                                </div>
-                                <div class="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl">
-                                  <div class="card-body">
-                                        <img class="h-full" src="./assets/quota-protest.png" alt="">
-                                  </div>
-                                </div>
-                              </div>
-                    </div>
+                     
 
           </main>
+          <script src="./JS/donate.js"></script>
+            <script src="./JS/features.js"></script>
+            
 </body>
+
 </html>
